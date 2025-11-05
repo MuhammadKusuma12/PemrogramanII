@@ -1,5 +1,4 @@
 package soal1;
-import java.text.DecimalFormat;
 
 public class PaintThings
 {
@@ -29,7 +28,6 @@ public class PaintThings
         double tankAmt = paint.amount(tank);
         
         // Print the amount of paint for each.
-        DecimalFormat fmt = new DecimalFormat("0.#");
         System.out.println ("\nNumber of gallons of paint needed...");
         System.out.println (deck.toString() + " of deck is " + deckAmt);
         System.out.println (bigBall.toString() + " of big ball is " + ballAmt);
